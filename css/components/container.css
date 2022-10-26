@@ -1,0 +1,8 @@
+.container {
+	align-items: center;
+	width: 	1510px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	border: rgba(0, 0, 0, 1.0);
+}

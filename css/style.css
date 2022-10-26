@@ -1,0 +1,67 @@
+@import	url("components/banner.css");
+@import url("components/container.css");
+@import url("components/content.css");
+@import url("components/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Comfortaa:wght@300&family=Reenie+Beanie&family=Ubuntu:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/high-spirited');
+
+
+body {
+	margin: 0px;
+}
+
+ 
+/*Matrice de responsivité*/
+
+/*Media queries*/
+
+
+@media (max-width:  1366px) {
+	.container	{
+		width: auto;
+		margin: 0 auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+}
+
+
+@media (max-width: 1000px) {
+	.container	{
+		width: auto;
+		margin: 0 auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 800px) {
+	.container	{
+		width: auto;
+		margin: 0 auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 600px) {
+	.container	{
+		width: auto;
+		margin: 0 auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+	.card-white {
+	width: 350px;
+	padding: 40px;
+	background-color: white;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	margin: 50px;
+	}
+	#divider {
+	width: 400px;
+	align-content: center;
+	color: lightgrey;
+	}
+}

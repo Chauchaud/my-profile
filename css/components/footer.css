@@ -1,0 +1,35 @@
+/*general*/
+
+a {
+	color: rgba(0, 0, 0, 1.0);
+	padding: 8px;
+}
+
+
+
+
+/*class*/
+
+.footer	{
+	margin-top: 30px;
+	align-items: center;
+	width: auto;
+	margin-bottom: 56px;
+}
+
+.footer h5 {
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.footer a {
+	font-size: 24px;
+}
+
+.footer a:hover {
+	opacity: 70%;
+	transition: 0.1s;
+}

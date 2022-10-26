@@ -1,0 +1,79 @@
+/*general*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;  
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 0px;
+
+ }
+
+
+
+
+/*id*/
+
+#mtb-card:hover {
+	color: rgba(231, 233, 235, 0.9);
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.3)0%, rgba(0, 0, 0, 0.2)50%), url("../../images/mountainbikes.jpg");
+	background-size: cover;
+	background-position: center;
+	transition: 0.3s;
+}
+
+#cars-card:hover {
+	color: rgba(231, 233, 235, 0.9);
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.3)0%, rgba(0, 0, 0, 0.2)50%), url("../../images/f1.jpg");
+	background-size: cover;
+	background-position: center;
+	transition: 0.3s;
+}
+
+#photo-card:hover {
+	color: rgba(231, 233, 235, 1.0);
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.3)0%, rgba(0, 0, 0, 0.2)50%), url("../../images/vincent-vtt.jpg");
+	background-size: cover;
+	background-position: center;
+	transition: 0.3s;
+}
+
+#graphdesign-card:hover {
+	color: rgba(231, 233, 235, 0.9);
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.3)0%, rgba(0, 0, 0, 0.2)50%), url("../../images/GT3RS-graph.jpg");
+	background-size: cover;
+	background-position: center;
+	transition: 0.3s;
+}
+
+
+
+
+/*classes*/
+
+.container h2 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+}
+
+.container p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15PX;
+}
+
+
+
+.card-white {
+	width: 500px;
+	padding: 40px;
+	background-color: white;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	margin: 50px;
+}
+

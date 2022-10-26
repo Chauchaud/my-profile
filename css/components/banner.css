@@ -1,0 +1,20 @@
+.banner	{
+	width: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: lightgrey;
+	align-items: center;
+}
+
+.banner h3 {
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 40px;
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
+#photo-profil {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+}
